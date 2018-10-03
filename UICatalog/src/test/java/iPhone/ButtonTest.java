@@ -12,11 +12,9 @@ import static common.Base.ad;
  */
 public class ButtonTest extends NavigateUi {
 
-    //@Test
+    @Test
     public void navigate()throws InterruptedException{
         UiCatalog ui = PageFactory.initElements(ad, UiCatalog.class);
         ui.getButtonPage();
-
     }
-
 }

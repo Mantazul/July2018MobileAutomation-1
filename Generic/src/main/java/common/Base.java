@@ -46,7 +46,7 @@ public class Base {
 
         if(OS.equalsIgnoreCase("ios")){
             if(appType.contains("iPhone")){
-                appDirectory = new File("IOS/src/app");
+                appDirectory = new File("UICatalog/src/app");
                 findApp = new File(appDirectory,"UICatalog6.1.app.zip");
                 if(deviceType.equalsIgnoreCase("RealDevice")){
                     cap = new DesiredCapabilities();
@@ -71,7 +71,7 @@ public class Base {
 
 
             }else if(appType.equalsIgnoreCase("iPad 2")){
-                appDirectory = new File("IOS/src/app");
+                appDirectory = new File("UICatalog/src/app");
                 findApp = new File(appDirectory,"UICatalog6.1.app.zip");
                 if(deviceType.contains("RealDevice")){
                     cap = new DesiredCapabilities();
@@ -168,8 +168,10 @@ public class Base {
     public void typeByXpath(String locator, String value, Keys key){
         ad.findElement(By.xpath(locator)).sendKeys(value);
     }
-    public void typeByXpath(String locator, String value){
-        ad.findElement(By.xpath(locator)).sendKeys(value);
+    public void typeByXpath(String locator, String value) {
+       MobileElement we = (MobileElement) ad.findElement(By.xpath(locator));
+       we.click();
+       we.sendKeys(value);
     }
     public List<String> getTexts(List<WebElement> elements){
         List<String> text = new ArrayList<String>();
