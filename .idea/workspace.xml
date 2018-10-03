@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7980c419-2dc0-426d-b905-e44357be48cb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/UICatalog/src/test/java/iPhone/UICalalogPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/common/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/common/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UICatalog/src/main/java/ButtonsPage/Buttons.java" beforeDir="false" afterPath="$PROJECT_DIR$/UICatalog/src/main/java/ButtonsPage/Buttons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UICatalog/src/main/java/ControlsPage/Controls.java" beforeDir="false" afterPath="$PROJECT_DIR$/UICatalog/src/main/java/ControlsPage/Controls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UICatalog/src/main/java/TextViewPage/TextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/UICatalog/src/main/java/TextViewPage/TextView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UICatalog/src/test/java/iPhone/ButtonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/UICatalog/src/test/java/iPhone/ButtonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UICatalog/src/test/resources/cataLogAppTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UICatalog/src/test/resources/cataLogAppTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UICatalog/target/classes/ButtonsPage/Buttons.class" beforeDir="false" afterPath="$PROJECT_DIR$/UICatalog/target/classes/ButtonsPage/Buttons.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UICatalog/target/test-classes/cataLogAppTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UICatalog/target/test-classes/cataLogAppTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UICatalog/src/main/java/PickersPage/PickerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/UICatalog/src/main/java/PickersPage/PickerClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,26 +33,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="10" />
-          <entry key="java" value="35" />
+          <entry key="java" value="39" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="10" />
-          <entry key="JAVA" value="35" />
+          <entry key="JAVA" value="39" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1980" />
+          <entry key="java" value="2272" />
           <entry key="xml" value="92" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1980" />
+          <entry key="JAVA" value="2272" />
           <entry key="XML" value="92" />
         </counts>
       </usages-collector>
@@ -93,10 +84,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/PickersPage/Picker.java">
+        <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/PickersPage/PickerClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="102" lean-forward="true" selection-start-line="16" selection-start-column="102" selection-end-line="16" selection-end-column="102" />
+            <state relative-caret-position="468">
+              <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/TextFieldsPage/TextFields.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/TextViewPage/TextView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,6 +185,7 @@
         <option value="$PROJECT_DIR$/UICatalog/src/test/java/iPhone/TextViewTest.java" />
         <option value="$PROJECT_DIR$/UICatalog/src/test/resources/cataLogAppTestRunner.xml" />
         <option value="$PROJECT_DIR$/UICatalog/src/main/java/TextViewPage/TextView.java" />
+        <option value="$PROJECT_DIR$/UICatalog/src/main/java/PickersPage/PickerClass.java" />
       </list>
     </option>
   </component>
@@ -418,7 +442,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538581736707" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538582489051" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -641,12 +665,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28433734" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.084337346" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.15903614" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.33373493" />
@@ -762,13 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UICatalog/src/test/java/iPhone/PickerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/Constructor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
@@ -829,16 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/TextFieldsPage/TextFields.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -923,18 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="186" column="53" selection-start-line="186" selection-start-column="53" selection-end-line="186" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8005#8006#0" expanded="true" />
-            <element signature="e#8062#8063#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/ButtonsPage/Buttons.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -991,14 +986,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/TextViewPage/TextView.java">
+    <entry file="file://$PROJECT_DIR$/UICatalog/src/test/java/iPhone/PickerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="72" lean-forward="true" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+        <state relative-caret-position="135">
+          <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/PickersPage/Picker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="102" lean-forward="true" selection-start-line="16" selection-start-column="102" selection-end-line="16" selection-end-column="102" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1010,12 +1010,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/PickersPage/Picker.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/Base.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="102" lean-forward="true" selection-start-line="16" selection-start-column="102" selection-end-line="16" selection-end-column="102" />
+        <state relative-caret-position="329">
+          <caret line="186" column="53" selection-start-line="186" selection-start-column="53" selection-end-line="186" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#8005#8006#0" expanded="true" />
+            <element signature="e#8062#8063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/TextFieldsPage/TextFields.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/TextViewPage/TextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/PickersPage/PickerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
           </folding>
         </state>
       </provider>
