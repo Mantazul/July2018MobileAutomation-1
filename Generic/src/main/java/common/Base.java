@@ -173,6 +173,21 @@ public class Base {
        we.click();
        we.sendKeys(value);
     }
+    public void clickOnWebElement(String locator,String locatorType){
+        if(locatorType=="id"){
+            ad.findElement(By.id(locator)).click();
+        }
+        else if(locatorType=="className"){
+           ad.findElement(By.className(locator)).click();
+        }
+        else if(locatorType=="cssSelector"){
+            ad.findElement(By.cssSelector(locator)).click();
+        }
+        else if(locatorType=="xpath"){
+           ad.findElement(By.xpath(locator)).click();
+        }
+        else System.out.println("Please specify id/className/cssSelector/xpath in locatorType.");
+    }
     public List<String> getTexts(List<WebElement> elements){
         List<String> text = new ArrayList<String>();
         for(WebElement element:elements){
