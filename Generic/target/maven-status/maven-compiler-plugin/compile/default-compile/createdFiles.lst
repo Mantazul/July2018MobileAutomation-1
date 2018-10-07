@@ -1,1 +1,4 @@
 common/Base.class
+common/TestLogger.class
+common/ExtentTestManager.class
+common/ExtentManager.class

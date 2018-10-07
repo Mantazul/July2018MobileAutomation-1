@@ -1,6 +1,7 @@
 package iPhone;
 
 import ButtonsPage.Buttons;
+import common.TestLogger;
 import navigate.NavigateUi;
 import UiCatalogPage.UiCatalog;
 import org.openqa.selenium.support.PageFactory;
@@ -20,15 +21,18 @@ public class ButtonTest extends Buttons{
 
     @Test
     public void navigate()throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         UiCatalog ui = PageFactory.initElements(ad, UiCatalog.class);
         ui.getButtonPage();
     }
     @Test
     public void testClickOnGray(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickOnGrayButton();
     }
     @Test
     public void testClickOnRightArrow(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickOnRightArrow();
     }
 

@@ -2,4 +2,8 @@ iPhone/TextFieldsTest.class
 iPhone/AlertsTest.class
 iPhone/ButtonTest.class
 iPhone/PickerTest.class
+iPhone/TextViewTest.class
+iPhone/ControlsTest.class
+iPhone/PickerTest2.class
 uicatalog/ipad/HomePage.class
+iPhone/UICalalogPageTest.class

@@ -5,6 +5,7 @@ TransitionsPage/Transitions.class
 navigate/NavigateUi.class
 SearchBarPage/SearchBar.class
 ImgesPage/Images.class
+PickersPage/PickerClass.class
 PickersPage/Picker.class
 AlertsPage/Alerts.class
 ToolbarPage/Toolbar.class

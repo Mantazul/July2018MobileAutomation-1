@@ -1,5 +1,6 @@
 package iPhone;
 
+import common.TestLogger;
 import navigate.NavigateUi;
 import TextFieldsPage.TextFields;
 import UiCatalogPage.UiCatalog;
@@ -17,6 +18,7 @@ public class TextFieldsTest extends NavigateUi {
 
     @Test
     public void navigate()throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         UiCatalog ui = PageFactory.initElements(ad, UiCatalog.class);
         ui.getTextFields();
         textFields.writeTextToFields();

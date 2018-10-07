@@ -1,6 +1,7 @@
 package PickersPage;
 
 import common.Base;
+import common.TestLogger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -18,12 +19,15 @@ public class Picker extends Base {
     List<WebElement> segmentControl = new ArrayList<WebElement>();
 
     public void getUIPicker(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         segmentControl.get(0).click();
     }
     public void getUIDatePicker(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         segmentControl.get(1).click();
     }
     public void getCustom(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         segmentControl.get(2).click();
     }
 

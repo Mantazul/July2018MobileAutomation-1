@@ -6,7 +6,7 @@
     <parameter name="appType" value="Phone"/>
     <parameter name="deviceType" value="RealDevice"/>
     <parameter name="deviceName" value="RealDevice"/>
-    <parameter name="version" value="6.0."/>
+    <parameter name="version" value="6.0.1"/>
 
     <test name="Go to Home page" preserve-order="true">
         <classes>

@@ -1,6 +1,7 @@
 package TextViewPage;
 
 import common.Base;
+import common.TestLogger;
 import org.openqa.selenium.By;
 import UiCatalogPage.UiCatalog;
 import org.testng.Assert;
@@ -11,9 +12,11 @@ import org.testng.Assert;
 public class TextView extends Base {
     UiCatalog obj = new UiCatalog();
     public void goToTextViewPage(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         obj.getTextView();
     }
     public void findElement(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         goToTextViewPage();
         String text = ad.findElement(By.xpath("//XCUIElementTypeApplication[@name=\"UICatalog\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextView")).getAttribute("value");
         System.out.println(text);
